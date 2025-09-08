@@ -1,0 +1,30 @@
+{
+  "hosts": [
+    "kong-ai-gateway"
+  ],
+  "https_redirect_status_code": 426,
+  "id": "21962a59-ad4b-4755-bf6c-3c49083c64fe",
+  "methods": [
+    "POST"
+  ],
+  "name": "load-tests-plugin-decorator",
+  "path_handling": "v0",
+  "paths": [
+    "/api/load-tests/decorator/chat"
+  ],
+  "preserve_host": false,
+  "protocols": [
+    "http",
+    "https"
+  ],
+  "regex_priority": 0,
+  "request_buffering": true,
+  "response_buffering": true,
+  "service": {
+    "id": "c13ffd6d-856c-4c58-9cad-3b24b7f52791"
+  },
+  "strip_path": true,
+  "tags": [
+    "load-tests"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "config": {
+    "anonymize": [
+      "all_and_credentials"
+    ],
+    "custom_patterns": null,
+    "host": "localhost",
+    "keepalive_timeout": 60000,
+    "port": 8080,
+    "recover_redacted": true,
+    "redact_type": "placeholder",
+    "scheme": "http",
+    "stop_on_error": true,
+    "timeout": 10000
+  },
+  "enabled": true,
+  "id": "0b8f69ac-1bca-43aa-b959-20e40f2ae479",
+  "name": "ai-sanitizer",
+  "protocols": [
+    "grpc",
+    "grpcs",
+    "http",
+    "https"
+  ],
+  "route": {
+    "id": "e632b033-4eaa-4f13-8256-b363d934a317"
+  }
+}

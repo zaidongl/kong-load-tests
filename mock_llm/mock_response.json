@@ -1,0 +1,16 @@
+{
+	"model": "llama3.2:3b",
+	"created_at": "2025-09-05T12:53:42.9671605Z",
+	"message": {
+		"role": "assistant",
+		"content": "Kong AI Gateway is an open-source edge computing platform that provides a scalable and secure way to manage APIs, microservices, and applications at the edge of the network. It's designed to handle high traffic, low latency, and real-time data processing requirements.\n\nThe Kong AI Gateway offers several key features:\n\n1. **API Management**: Kong allows you to define, manage, and secure APIs using a intuitive configuration interface or an API schema.\n2. **Edge Computing**: The platform provides edge computing capabilities that enable you to process data closer to where it's generated, reducing latency and improving performance.\n3. **Containerization**: Kong supports containerization using Docker, allowing you to run your applications in containers on the gateway.\n4. **Service Mesh**: Kong provides a built-in service mesh that enables you to manage microservices and microgateway configurations.\n5. **Security**: The platform offers advanced security features such as rate limiting, caching, and encryption to protect your APIs and data.\n\nThe Kong AI Gateway is often used in IoT, industrial automation, and other use cases where real-time data processing and low-latency applications are critical.\n\nSome of the benefits of using Kong AI Gateway include:\n\n* Improved performance and reduced latency\n* Enhanced security and control over APIs and microservices\n* Scalability and flexibility for edge computing workloads\n* Support for containerization and service mesh configurations\n\nOverall, Kong AI Gateway is a powerful platform that helps organizations build scalable, secure, and high-performance applications at the edge of their networks."
+	},
+	"done_reason": "stop",
+	"done": true,
+	"total_duration": 44347938400,
+	"load_duration": 5210166900,
+	"prompt_eval_count": 31,
+	"prompt_eval_duration": 1328196300,
+	"eval_count": 305,
+	"eval_duration": 37802607000
+}

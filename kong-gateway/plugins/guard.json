@@ -1,0 +1,28 @@
+{
+  "config": {
+    "allow_all_conversation_history": false,
+    "allow_patterns": [
+      ".+[Kk]ong.+"
+    ],
+    "deny_patterns": [],
+    "genai_category": "text/generation",
+    "llm_format": "openai",
+    "match_all_roles": false,
+    "max_request_body_size": 8192
+  },
+  "enabled": true,
+  "id": "d2109257-7b3e-4ee6-ba10-55f18e016f7f",
+  "name": "ai-prompt-guard",
+  "protocols": [
+    "grpc",
+    "grpcs",
+    "http",
+    "https"
+  ],
+  "route": {
+    "id": "19c5e029-8d7f-45ac-a2d6-f7ff25295eac"
+  },
+  "tags": [
+    "load-tests"
+  ]
+}
